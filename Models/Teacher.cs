@@ -16,4 +16,6 @@ public class Teacher : BaseModel
     public List<Dean>? Deans { get; set; }
 
     public List<Curator>? Curators { get; set; }
+
+    public List<Head>? Heads { get; set; }
 }

@@ -9,5 +9,5 @@ public class Dean : BaseModel
 
     public Teacher? Teacher { get; set; }
 
-    public List<Dean>? Deans { get; set; }
+    public List<Faculty>? Faculties { get; set; }
 }

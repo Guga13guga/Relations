@@ -27,10 +27,21 @@ public class RelationsDbContext : DbContext
     public DbSet<Curator> Curators { get; set; }
 
     public DbSet<Faculty> Faculties { get; set; }
-    public DbSet<Departament> Departaments { get; set; }
+
+    //public DbSet<Departament> Departaments { get; set; }
+
+    public DbSet<Group> Groups { get; set; }
+
+    public DbSet<Head> Heads { get; set; }
+
+    public DbSet<GroupCurator> GroupCurators { get; set; }
+
+    public DbSet<GroupLecture> GroupLectures { get; set; }
+
+    public DbSet<AdminUser> AdminUser { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("");
+        optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=RelationsDbNew;Trusted_Connection=True;TrustServerCertificate=true;");
     }
 }

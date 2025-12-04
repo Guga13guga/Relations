@@ -19,5 +19,5 @@ public class Faculty : BaseModel
 
     public Dean? Dean { get; set; }
 
-    public List<Departament>? Departaments { get; set; }
+   // public List<Departament>? Departaments { get; set; }
 }

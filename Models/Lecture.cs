@@ -16,4 +16,6 @@ public class Lecture:BaseModel
     public Teacher? Teacher { get; set; }
 
     public List<Schedule>? Schedules { get; set; }
+
+    public List<GroupLecture>? GroupLectures { get; set; }
 }
