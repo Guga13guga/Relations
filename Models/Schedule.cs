@@ -5,9 +5,9 @@ namespace Relations.Models;
 [Table("Schedules")]
 public class Schedule:BaseModel
 {
-    public string?  Class{ get; set; }
+    public string?  Class { get; set; }
 
-    public int DayOfWeek{ get; set; }
+    public int DayOfWeek {get; set; }
 
     public string? Week{ get; set; }
 

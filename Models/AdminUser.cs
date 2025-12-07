@@ -14,4 +14,9 @@ public class AdminUser : BaseModel
     public string? PhoneNumber { get; set; }
 
     public DateTime LastSignIn { get; set; }
+
+    public override string ToString()
+    {
+        return $"Name:{Name}; Email:{Email}; PhoneNumber:{PhoneNumber};LastSignIn:{LastSignIn}";
+    }
 }
