@@ -18,6 +18,4 @@ public class Faculty : BaseModel
     public int DeanId{ get; set; }
 
     public Dean? Dean { get; set; }
-
-   // public List<Departament>? Departaments { get; set; }
 }

@@ -11,6 +11,4 @@ public class Head : BaseModel
     public int TeacherId { get; set; }
 
     public Teacher? Teacher { get; set; }
-
-    //public List<Departament>? Departaments { get; set; }
 }

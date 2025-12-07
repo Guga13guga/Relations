@@ -28,8 +28,6 @@ public class RelationsDbContext : DbContext
 
     public DbSet<Faculty> Faculties { get; set; }
 
-    //public DbSet<Departament> Departaments { get; set; }
-
     public DbSet<Group> Groups { get; set; }
 
     public DbSet<Head> Heads { get; set; }
